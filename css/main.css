@@ -32,10 +32,10 @@ h1{
 	color:white;
 }
 
-h2, h3, h4, button, h5, h6{
+h2, h3, h4, button, h5, h6, .social ul li{
 	font-family: 'Teko', sans-serif;
 	font-size: 	40px;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 
@@ -55,12 +55,12 @@ h4{
 
 h5{
 	font-size: 20px
-	background-color: #010101;
 }
 
 h6{
 	font-size: 30px;
-	color: #fff;
+	color: #b1afb0;
+	font-weight: 300;
 }
 
 p{
@@ -156,6 +156,7 @@ button:hover{
 
 i{
 	margin-right: 10px;
+	color: #352d2f;
 }
 
 .social{
@@ -167,18 +168,13 @@ i{
 .social ul li{
 	width: 270px;
 	height: 50px;
-	text-align: center;
-	font-family: 'Teko', sans-serif;
-	font-size: 20px;
-	font-weight: 300;
-	letter-spacing: 1px;
-	color: #352d2f;
 	float: left;
 	border: #d3d1d1 solid 2px;
 	margin: 15px;
 	padding-top: 13px;
 	list-style: none;
-	text-transform: uppercase;
+	font-size: 20px;
+	color: #352d2f;
 }
 
 .social ul li:hover{
@@ -209,7 +205,7 @@ figcaption:hover{
 footer{
 	margin: 30px auto 30px auto;
 	font-size: 13px;
-	width: 1230px;
+	width: 90%;
 }
 
 .footer_position{
@@ -233,5 +229,9 @@ footer{
 	footer{
 		width: 100%;
 		padding: 20px;
+	}
+	.footer_position{
+		float: left;
+		margin-top: 20px;
 	}
 }
