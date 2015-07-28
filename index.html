@@ -4,6 +4,11 @@
 	<meta charset="UTF-8">
 	<title>Blog: Stock Photos</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,200' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Teko:300,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
@@ -12,17 +17,18 @@
 	</header>
 
 	<section class="article_info">
-		<img src="img/blog_picture.gif" alt="avatar">
+		<img class="avatar" src="img/dustin.jpg" alt="avatar">
 		<h2>Dustin Senos</h2>
-		<h3>Art &amp; Design</h3>
+		<h3>Art &amp; Design<BR>
 		<time datetime="2014-01-22">22 January 2014</time>
+		</h3>
 	</section>
 
 	<main>
-		
+		<!-- NOT and article because there is not header -->
 		<section class="blogPost">
-			<p>Finding great stock photos is a pain. You’re left with either low-res amateur photos, people wearing cheesy headsets, or photos that are out of budget for the project you’re working on. Below is an ongoing list (so bookmark it) of the best stock photo sites I’ve come across.
-			</p>
+			<p2>Finding great stock photos is a pain. You’re left with either low-res amateur photos, people wearing cheesy headsets, or photos that are out of budget for the project you’re working on. Below is an ongoing list (so bookmark it) of the best stock photo sites I’ve come across.
+			<BR><BR>	
 			
 			<ul>
 				<li>Little Visuals <a href="http://littlevisuals.co/" target="_blank">http://littlevisuals.co/</a></li>
@@ -38,8 +44,9 @@
 				<li>Jay Mantri <a href="http://jaymantri.com/" target="_blank">http://jaymantri.com/</a></li>
 				<li>Public Domain Archive <a href="http://publicdomainarchive.com/" target="_blank">http://publicdomainarchive.com/</a></li>
 			</ul>
+			</p2>
 
-			<section class="leaveComment">
+			<section>
 				<h4>Leave a Reply</h4>
 				<form action="">
 					<input type="text" placeholder="Your Name" id='comment'>
@@ -50,9 +57,10 @@
 
 		</section>
 
-		<aside class="social">
+		<aside class="social clearfix">
 			<h5>Share this Post</h5>
-			<p>If you like this article, please take a second to share it with the world and help idealUI grow!</p>
+			<p3>If you like this article, please take a second to share it with the world and help idealUI grow!</p3>
+
 			<ul>
 				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i>Facebook</a></li>
 				<li><a href="#" target="_blank"><i class="fa fa-twitter"></i>Twitter</a></li>
@@ -67,25 +75,36 @@
 
 		<section>
 			<a href="#">
-				<img src="img/article2" alt="prevPhoto">
-				<h5>Previous</h5>
-				<h2>How To Get Started your own creative studio</h2>
+				<figure>
+				<img src="img/article2.jpg" alt="prevPhoto">
+					<figcaption>
+						<h6>Previous</h6>
+						<h2>How To Get Started your own creative studio</h2>
+					</figcaption>
+				</figure>
 			</a>
 		</section>
 
-		<section>
+		<section class="clearfix">
 			<a href="#">
-				<img src="img/article4" alt="nextPhoto">
-				<h5>Next</h5>
-				<h2>Enhancing User Experience With The Web Speech API</h2>
+				<figure>
+					<img src="img/article4.jpg" alt="nextPhoto">
+					<figcaption>
+						<h6>Next</h6>
+						<h2>Enhancing User Experience With The Web Speech API</h2>		
+					</figcation>		
+				</figure>
+
 			</a>
 		</section>
 	</aside>
 
 	<footer>
-		<p>&copy; 2015 SAGE Multipurpose Theme. Made by <a href="#">idealUI</a></p>
-		<p><a href="#">Terms of Use</a></p>
-		<p><a href="#">Privacy Policy</a></p>
+		&copy; 2015 SAGE Multipurpose Theme. Made by <a href="#">idealUI</a>
+		<div class="footer_position"> 
+			<a href="#">Terms of Use</a>
+			<a href="#">Privacy Policy</a>	
+		</div>
 	</footer>
 
 </body>
