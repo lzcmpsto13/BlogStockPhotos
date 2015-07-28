@@ -29,13 +29,13 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 48px;
-	color:white;
+	color: #fff;
 }
 
 h2, h3, h4, button, h5, h6, .social ul li{
 	font-family: 'Teko', sans-serif;
 	font-size: 	40px;
-	font-weight: 400;
+	font-weight: 300;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 
@@ -54,7 +54,9 @@ h4{
 }
 
 h5{
-	font-size: 20px
+	font-size: 20px;
+	color: #010101;
+	font-weight: 400;
 }
 
 h6{
@@ -65,7 +67,7 @@ h6{
 
 p{
 	font-size: 24px;
-	color: white;
+	color: #fff;
 	padding: 20px;
 }
 
@@ -79,18 +81,18 @@ p2{
 p3{
 	font-size: 16px;
 	font-weight: 300;
-	color: #555555;
+	color: #b4b4b4;
 	letter-spacing: .5px;
 }
 
 a{
 	color: #555555;
-	text-decoration: underline;;
-
+	text-decoration: underline;
 }
 
 .social ul li a{
 	text-decoration: none;
+	color: #352d2f;
 }
 
 time{
@@ -123,30 +125,29 @@ ul{
 
 form{
 	margin-top: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #555555;
 }
 
 input, textarea{
 	width: 100%;
 	padding: 15px;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 14px;
-	color: #555555;
 }
 
 textarea{
-	width: 100%;
-	padding: 15px;
 	height: 240px;
 	border: soild 1px #ccc;
 }
 
 button{
 	width: 130px;
+	height: 50px;
 	background-color: #f63c3c;
 	border: none;
 	font-size: 18px;
-	padding: 18px;
-	font-weight: 300;
+	padding: 13px;
 	color: #fff;
 }
 
@@ -199,7 +200,7 @@ figcaption{
 }
 
 figcaption:hover{
-	text-decoration: underline;
+	color: #f63c3c;
 }
 
 footer{
